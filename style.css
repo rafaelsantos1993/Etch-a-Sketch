@@ -1,0 +1,16 @@
+/* defines the size of the border with a CSS variable*/
+:root{
+    --nDivs: 16;
+    
+}
+
+/*automatically places the divs */
+.container{
+    display: grid;
+    grid-template-columns: repeat(var(--nDivs));
+}
+
+/*each small pixel style*/
+.box{
+
+}
