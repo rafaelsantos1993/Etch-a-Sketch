@@ -1,3 +1,3 @@
 # Etch-a-Sketch
 
-Classic board implemented on CSS, HTML ans JavaScript
+Classic board implemented on CSS, HTML and JavaScript
