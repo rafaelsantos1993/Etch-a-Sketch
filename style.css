@@ -4,13 +4,55 @@
     
 }
 
+body{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 80px; 
+}
+
 /*automatically places the divs */
 .container{
     display: grid;
-    grid-template-columns: repeat(var(--nDivs));
+    grid-template-columns: repeat(var(--nDivs),auto);
+    width: 400px;
+    height: 400px;
+    border: 60px solid rgb(172, 12, 12);
+    border-radius: 30px;
+    position: absolute;
 }
 
 /*each small pixel style*/
 .box{
+    size: auto;
+}
 
+button {
+    position: absolute;
+    background-color: rgb(247, 247, 247);
+    border-color: rgb(247, 247, 247);
+    border-radius: 100%;
+    height: 45px;
+    width: 45px;
+    display: inline-block;
+    
+}
+
+button:hover{
+    background: rgb(223, 221, 221);
+}
+
+
+.button1{
+    bottom: -55px;
+    left: 20%;
+}
+
+.button2 {
+    bottom: -55px;
+    right: 20%;
+}
+
+.drawing{
+    background-color: rgb(143, 139, 139);
+    filter: brightness(0%);
 }
